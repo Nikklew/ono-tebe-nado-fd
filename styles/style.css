@@ -1,1 +1,74 @@
-/* место для вашего кода */
+.page {
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 334px;
+    height: 596px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.lots__heading {
+
+}
+
+.lots__card-list {
+
+}
+
+.lots__card-list-item {
+
+}
+
+.card__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+}
+
+.card__text {
+    position: relative;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+    z-index: 1;
+
+}
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots__look-more-link{
+
+}
